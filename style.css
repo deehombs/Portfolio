@@ -1,5 +1,5 @@
 * {font-family: 'Arima', cursive;
-}
+box-sizing:border-box }
 
 body {
     height:100%;
@@ -8,7 +8,10 @@ body {
 h2 {
   color: #f5a69e;
   font-weight: bolder;
+}
 
+p {
+  font-size: 10px;
 }
 
 .hero-img{
@@ -81,23 +84,72 @@ flex-direction: column;
 .project-img {
   width:50vw;
   height:50vh;
+  margin-bottom: 0px;
   background-color: #c2bbcd;
 }
-.project1 {
-    border-color: black;
+.project{
+    border-color: solid black;
     width:75vw;
+    
+    
 }
+
+.project-text {
+  width:50vw;
+  height:50vh;
+  background-color: #ffe5c4;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding:20px;
+  
+  
+  
+
+  
+}
+
 
 .project title{
   text-align:centre;
-  display: flex;
-  justify-content: center;
+  margin: 0px;
+  
 }
+
+#contact{
+  margin-left: 50px;
+  margin-right:50px;
+}
+
+
 .message {
   width: 30px;
   height:20px;
 }
 
-.footer {
+input{
+  width:75vw;
+  height: 50px;
+}
+textarea{
+  width:75vw;
+  height: 50px;
+}
+button {
+  background-color: #ecc1bb;
+  width:75vw;
+  height: 50px;
+  margin-bottom: 30px;
+}
 
+#contact-us {
+  background-color: #ecc1bb;
+}
+
+.footer {
+  background-color: #ecc1bb;
+  width:100vw;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+ 
 }
