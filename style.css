@@ -11,15 +11,14 @@ h2 {
 }
 
 p {
-  font-size: 10px;
+  font-size: 14px;
 }
 
 .hero-img{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url ("https://images.unsplash.com/photo-1602705399214-d2fed251f3b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fHBpbmslMjBsYXB0b3B8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url ("https://images.unsplash.com/photo-1531815288026-1946892d24df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGluayUyMGxhcHRvcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
   opacity: 0.8;
-  min-width: 360px;
-  max-width: 770px;
-  height:auto;
+  width: 150vw;
+  height:150vh;
   
   background-position: center;
   background-repeat: no-repeat;
@@ -28,7 +27,8 @@ p {
 }
 .hero-text{
         text-align: center;
-        max-width: 360px;
+        min-width: 100vw;
+        max-width: 100vh;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -46,8 +46,8 @@ p {
     height: auto;
     background-color: #ffe5c4;
     display: flex;
-    align-items:center;
-    justify-content: center;
+    /*align-items:center;
+    justify-content: center;*/
     margin-top:0px;
 
 }

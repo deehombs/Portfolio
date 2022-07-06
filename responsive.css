@@ -1,0 +1,19 @@
+@media screen and (min-width: 601px) {
+    .portfolio-container {
+        display: flex;
+        flex-wrap: wrap;
+}
+.portfolio-items{
+    width:1vw;
+}
+}
+
+@media screen and (min-width: 1024px) {
+    .portfolio-container {
+        display: flex;
+        flex-direction: row;
+}
+.portfolio-items{
+    width:1vw;
+}
+}
